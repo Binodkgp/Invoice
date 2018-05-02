@@ -1,0 +1,6 @@
+You are given the sample retail invoice of Pechkus(invoice.xlsx) and another excel file which is called SoftDataUpload.xlsx. SoftDataUpload File consists of fields present in the invoice and few more generic fields. It is used to upload data regrading orders that are to be shipped to customers. You are required to make 5 copies of invoice file with different details and then make a python script which can load data of these invoices into respective field in SoftDataUpload file. Your solution script should be valid for any number of such invoices. You are allowed to use any library of your own choice. You test case output SoftDataUpload.xlsx File should have atleast 10 entries.
+
+Points to Remember: 
+One Invoice File contains 2 invoices. 
+AWB No. is an unique field which is given in a 2 separate .xlsx files. 1 for Prepaid Orders (PPD) and other for Cash On Delivery Orders(COD).
+GST Code is different for each state. GST.xlsx contains this information.
